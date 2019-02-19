@@ -1,0 +1,30 @@
+/* Practica de recuperación */
+/* Esta practica es válida como recuperación de la práctica 1 del semestre 2018_2 */
+/* Si usted decide realizar esta práctica entoces su nota final en la práctica 1
+* será la que obtenga en esta misma práctica de recuperación */
+
+Ejercicios:
+
+1. Diseñe un función llamada "Mayusculas" que recibe como parametro de entrada un
+   string y a su vez tiene como valor de retorno un string. La función debe convertir
+   todos los caracteres del string de entrada a mayusculas y debe retornar el string
+   resultante.
+
+2. Diseñe una función que recibe 2 parametros de entrada, el primero un string que debe
+   imprimirse cierto número de veces. El número de veces va estar indicado por el segundo
+   parametro que debe ser de tipo int. La función debe contar con parametros por defecto,
+   es decir, debe imprimir alguna frase un cierto número fijo de veces a pesar de que no se le 
+   ingrese ningun parametro string ni ningun parametro int. Si la función recibe un número
+   negativo como parametro de entrada entonces se debe detener la ejecución del programa
+   con un mensaje de despedida.
+   
+   Enlaces recomendados: https://www.programiz.com/cpp-programming/default-argument
+                         http://fpsalmon.usc.es/genp/doc/cursos/C++/funciones/defaultParameters.html
+                         
+ 3. Diseñe una función que reciba como parametro de entrada un string, dicha función debe detectar
+    si en el string de entrada hay números que sumen 10 y que esten entre los caracteres
+    en medio de dos caracteres ampersand (&). Ejemplo: "345ff6&dfg6pobn4&cun" -> este string cumple
+    la condición ya que 6 y 4 están entre los caracteres delimitados por los &'s y además suman 10.
+    La función debe retornar la cantidad de conjuntos de números que cumplen la condición en el string
+    de entrada, ejemplo: si el estring de entrada es Info2&901&yucasfritas&hy3jun7kpm&UdeA, la función
+    debería retornar un 2, ya que hay 2 conjuntos de números que cumplen la condición (9,0,1 y 3,7).
